@@ -1,0 +1,111 @@
+/*CART CSS*/
+
+.cart{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parrafoNoHayProductos h2{
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  margin: 100px 450px 0px 450px;
+  border: 5px solid black;
+  border-radius: 30px;
+  font-size: medium;
+}
+.titleCart{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  margin: 50px 250px 50px 250px;
+  border-radius: 30px;
+}
+.botonesCart{
+  display: flex;
+}
+.botonBorrarProductos{
+  background-color: white;
+  height: 100px; 
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+.botonBorrarProductos h2{
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.botonContinuarComprando{
+  background-color: white;
+  height: 100px; 
+  width: 500px;
+  margin-left: 350px;
+  border-radius: 30px;
+}
+.botonContinuarComprando h2{
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.itemCart{
+  background-color: white;
+  margin: 50px 450px 0px;
+  padding: 0px 0px 25px;
+  text-align: center;
+  width: 40%;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.itemCart img{
+  width: 35%;
+  margin: 0px 190px;
+}
+.titlePrecio{
+  display: block;
+}
+.botonRemover{
+  background-color: black;
+  color: white;
+  border: 5px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.totalYFinalizarCompra{
+  background-color: white;
+  margin: 50px 450px 0px;
+  text-align: center;
+  width: 40%;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.totalYFinalizarCompra p{
+  background-color: black;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+.totalYFinalizarCompra button{
+  background-color: green;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+
+
+
+
+
+

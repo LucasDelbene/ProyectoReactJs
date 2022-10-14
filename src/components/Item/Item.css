@@ -1,0 +1,75 @@
+/*ITEM CSS*/
+
+.productos{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 3rem 1rem;
+  box-sizing: border-box;
+}
+
+.producto{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  border: 6px solid white;
+  border-radius: 30px;
+  background-color: white;
+}
+.producto:hover{
+  border: 6px solid black;
+}
+.imagen img{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+.productoFooter{
+  padding: 1rem;
+}
+.productoFooter h2{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1a202c;
+  font-family: Helvetica,sans-serif;
+}
+.productoFooter .precioStock{
+  font-weight: 700;
+  color: rgba(0, 0, 0, .555);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.botonDetalle{
+  background-color: green;
+  align-items: center;
+  text-align: center;
+  border: solid black;
+  border-radius: 15px;
+  margin: 30px 0px 30px;
+  padding: 15px 15px 15px 15px;
+}
+.botonDetalle .titleDetalle{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

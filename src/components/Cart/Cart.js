@@ -30,6 +30,7 @@ const Cart = () => {
     }
     const nuevaOrden = doc(collection(db, "orders"))
     await setDoc(nuevaOrden, orden);
+    cartList.borrarCarrito()
   
     //ACTUALIZANDO UN DOCUMENTO
     itemsForDB.map(async (item) => {
@@ -38,7 +39,6 @@ const Cart = () => {
         stock: increment(-item.cantidad)
       });
     })
-    cartList.borrarCarrito()
   }
  
   if (cartList.length === 0){

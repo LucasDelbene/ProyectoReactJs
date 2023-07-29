@@ -6,6 +6,6 @@ al carrito de compras y mucho mas. Espero que les guste, muchas gracias!
 
 Herramientas utilizadas: HTML, CSS, JavaScript, ReactJs, Hooks(useState, useEffect, useParams), react-router-dom.
 
-[![Proyecto-React-Js.jpg]([https://i.postimg.cc/MKGHbfK2/Proyecto-React-Js.jpg)](https://postimg.cc/K4dmmzMJ](https://www.youtube.com/watch?v=A7MPj2dXZlI)https://www.youtube.com/watch?v=A7MPj2dXZlI)
+[![Proyecto-React-Js.jpg](https://i.postimg.cc/MKGHbfK2/Proyecto-React-Js.jpg)](https://postimg.cc/K4dmmzMJ)
 
 
